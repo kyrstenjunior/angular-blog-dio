@@ -34,8 +34,15 @@
     }
   }
 
-  .big-card__description p {
-    color: gray;
-    margin-top: 8px;
+  .big-card__description {
+    p {
+      a {
+        color: gray;
+        margin-top: 8px;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
   }
 }
